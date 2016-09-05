@@ -1,0 +1,106 @@
+.title{
+	text-align: center;
+	font-size: 40px;
+	margin: 30px;
+}
+
+.box{
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+h2{
+	width: 130px;
+	padding: 5px;
+	background-color: lightgrey;
+	border: 2px solid grey;
+	text-align: center;
+	margin-top:0px;
+	position: absolute;
+	right: 0px;
+}
+
+p{
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+/* For large devices*/
+@media (min-width: 992px) {
+	.lg-sec1, .lg-sec2, .lg-sec3{
+		box-sizing: border-box;
+		float: left;
+		border: 1px solid black;
+		margin-right: 0.66%;
+		margin-left: 0.66%;
+		margin-bottom: 10px;
+		position: relative;
+		height:180px;
+	}
+	.lg-sec1{
+		width: 32%;
+		background-color: lightgreen;	
+}
+
+	.lg-sec2{
+		width: 32%;
+		background-color: orange;
+	}
+
+	.lg-sec3{
+		width: 32%;
+		background-color: lightblue;
+	}
+}
+/* For medium devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.md-sec1, .md-sec2, .md-sec3{
+		box-sizing: border-box;
+		float:left;
+		border: 1px solid black;
+		margin-right: 0.5%;
+		margin-left: 0.5%;
+		margin-bottom: 10px;
+		position: relative;
+	}
+	.md-sec1{
+		width: 49%;
+		background-color: lightgreen;
+		height: 170px;
+	}
+	.md-sec2{
+		width: 49%;
+		background-color: orange;
+		height: 170px;
+	}
+	.md-sec3{
+		width: 99%;
+		background-color: lightblue;
+	}
+}
+
+/*For small devices*/
+@media (max-width: 767px) {
+	.sm-sec1, .sm-sec2, .sm-sec3{
+		box-sizing: border-box;
+		float: left;
+		border: 1px solid black;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 12px;
+		position: relative;
+	}	
+	.sm-sec1{
+		width: 98%;
+		background-color: lightgreen;
+	}
+	.sm-sec2{
+		width: 98%;
+		background-color: orange;
+	}
+	.sm-sec3{
+		width: 98%;
+		background-color: lightblue;
+	}
+}
